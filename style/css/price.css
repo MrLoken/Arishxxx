@@ -1,0 +1,194 @@
+@import url("../css/import/import.css");
+@font-face {
+  font-family: "CenturyGothic";
+  src: url("../fonts/centurygothic.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+.price {
+  background: #f8f8f8;
+}
+
+.photoset .title-price {
+  padding-top: 120px;
+  font-size: 35px;
+  font-family: "CenturyGothic", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.photoset .subtitle-price {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 26px;
+  font-family: "CenturyGothic", sans-serif;
+}
+.photoset .blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.photoset .blocks .list {
+  font-size: 23px;
+  font-family: "CenturyGothic", sans-serif;
+}
+.photoset .blocks .list .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+}
+.photoset .blocks .list .del {
+  margin-top: 30px;
+}
+.photoset .blocks .block {
+  font-family: "CenturyGothic", sans-serif;
+  font-size: 20px;
+}
+.photoset .blocks .block .p {
+  margin-top: 5px;
+}
+.photoset .blocks .block .three {
+  margin-top: 30px;
+}
+
+.processing .title-price {
+  padding-top: 100px;
+  font-size: 35px;
+  font-family: "CenturyGothic", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.processing .blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.processing .blocks .list {
+  font-size: 23px;
+  font-family: "CenturyGothic", sans-serif;
+}
+.processing .blocks .list .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+}
+.processing .blocks .block {
+  font-family: "CenturyGothic", sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.processing .blocks .two {
+  margin-top: 5px;
+}
+
+.speed .title-price {
+  padding-top: 100px;
+  font-size: 35px;
+  font-family: "CenturyGothic", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.speed .subtitle-price {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  margin-top: 26px;
+  font-family: "CenturyGothic", sans-serif;
+}
+.speed .blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.speed .blocks .list {
+  font-size: 20px;
+  font-family: "CenturyGothic", sans-serif;
+}
+.speed .blocks .list .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5px;
+  max-width: 450px;
+  margin-left: 15px;
+}
+.speed .blocks .list .del {
+  margin-top: 30px;
+}
+.speed .blocks .block {
+  font-family: "CenturyGothic", sans-serif;
+  font-size: 20px;
+}
+.speed .blocks .block .two {
+  margin-top: 50px;
+}
+.speed .blocks .block .one {
+  margin-top: 20px;
+}
+.speed .blocks .block .p {
+  margin-left: -40px;
+}
+
+.packet .title-price {
+  padding-top: 100px;
+  font-size: 35px;
+  font-family: "CenturyGothic", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.packet .subtitle-price {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 26px;
+  font-family: "CenturyGothic", sans-serif;
+}
+
+.packet {
+  font-size: 22px;
+  font-family: "CenturyGothic", sans-serif;
+  text-align: center;
+}
+.packet .blocks .list {
+  margin-top: 40px;
+}
+.packet .blocks .list .item {
+  margin-top: 30px;
+}
+
+.important .title {
+  margin-top: 100px;
+  font-size: 35px;
+  font-family: "CenturyGothic", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.important .dead {
+  text-align: center;
+  font-family: "CenturyGothic", sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 100px;
+  max-width: 600px;
+}

@@ -1,0 +1,323 @@
+@import url('../css/import/import.css');
+
+
+@font-face {
+    font-family: "CenturyGothic";
+    src: url("../fonts/centurygothic.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+@mixin baber{
+    .dots{
+        text-align: center;
+        margin: 2%
+    }
+
+    .dot{
+        height: 15px;
+        width: 15px;
+        background-color: #bbb;
+        display: inline-block;
+        border-radius: 50%;
+        margin: 0 2px;
+        transition: background-color 0.6s ease;
+    }
+
+    .active{
+        background-color: #717171;
+    }
+
+    .fade{
+        animation: fade 1.5s;
+    }
+
+    @keyframes fade {
+        from{opacity: .4;}
+        to{opacity: 1;}
+    }
+
+    #prev:hover, #next:hover{
+        background-color: #000000;
+        color: white
+    }
+}
+
+
+section{
+    background: #F8F8F8
+}
+
+section{
+
+    .title{
+        font-size: 48px;
+        font-family: "CenturyGothic", serif;
+        padding-top: 50px;
+        text-align: center;
+    }
+}
+
+.slider-street{
+   
+    .street-title{
+        font-family: "CenturyGothic", serif;
+        font-size: 35px;
+        margin-top: 110px;
+        text-align: center;
+    }   
+
+    .street-subtitle{
+        font-family: "CenturyGothic", serif;
+        font-weight: 400;
+        font-size: 19px;
+        text-align: center;
+        color: #000000;
+        margin-top: 26px
+    }
+    
+    .slider-inner{
+        .ladno-street{
+            display: flex;
+            justify-content: center  ;
+            align-items: center;
+        }
+        .image{
+            width: 70%;
+            height: 70%;
+            display: none;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    
+        #prev{
+            cursor: pointer;
+            font-size: 20px;
+            padding: 16px;
+            color: #bbbbbb;
+     
+            font-weight: bold;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        #next{
+            cursor: pointer;
+            font-size: 20px;
+            padding: 16px;
+            color: #bbbbbb;
+     
+            font-weight: bold;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+    
+        @include baber
+    
+
+    }
+
+    
+
+}
+
+.slider{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slider-holidays{
+    .holidays-title{
+        font-family: "CenturyGothic", serif;
+        font-size: 35px;
+        padding-top: 110px;
+        text-align: center;
+    }  
+    .holidays-subtitle{
+        font-family: "CenturyGothic", serif;
+        font-weight: 400;
+        font-size: 19px;
+        text-align: center;
+        color: #000000;
+        margin-top: 26px
+    }
+    
+    .holidays-inner{
+        .ladno-holidays{
+            display: flex;
+            justify-content: center ;
+            align-items: center;
+        }
+
+        .image{
+            width: 70%;
+            height: 70%;
+            display: none;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        #prev{
+            cursor: pointer;
+            font-size: 20px;
+            padding: 16px;
+            color: #bbbbbb;
+     
+            font-weight: bold;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        #next{
+            cursor: pointer;
+            font-size: 20px;
+            padding: 16px;
+            color: #bbbbbb;
+     
+            font-weight: bold;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+    
+        
+        @include baber;
+
+    
+        margin-top: 40px;
+    }
+
+
+
+
+
+}
+
+.slider-portfolio{
+    margin-top: 82px;
+
+    .portfolio-title{
+        font-family: "CenturyGothic", serif;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 90px;
+    }  
+
+    .portfolio-subtitle{
+        font-family: "CenturyGothic", serif;
+        font-weight: 400;
+        font-size: 19px;
+        text-align: center;
+        color: #000000;
+        margin-top: 26px;
+    }
+    
+    .portfolio-inner{
+    .ladno-portfolio{
+        display: flex;
+        justify-content: center  ;
+        align-items: center;
+    }
+    .image{
+        width: 70%;
+        height: 70%;
+        display: none;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    #prev{
+        cursor: pointer;
+        font-size: 20px;
+        padding: 16px;
+        color: #bbbbbb;
+ 
+        font-weight: bold;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    #next{
+        cursor: pointer;
+        font-size: 20px;
+        padding: 16px;
+        color: #bbbbbb;
+ 
+        font-weight: bold;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    @include baber
+
+
+
+
+}
+}
+
+
+.slider-bread{
+    padding-bottom: 100px;
+    .bread-title{
+        font-family: "CenturyGothic", serif;
+        font-size: 35px;
+        margin-top: 120px;
+        padding-top: 20px;
+        text-align: center;
+
+    }   
+    
+    .bread-subtitle{
+        font-family: "CenturyGothic", serif;
+        font-weight: 400;
+        font-size: 19px;
+        text-align: center;
+        color: #000000;
+        margin-top: 26px;
+    }
+
+    .bread-inner{
+        .ladno-bread{
+            display: flex;
+            justify-content: center  ;
+            align-items: center;
+        }
+        .image{
+            width: 70%;
+            height: 70%;
+            display: none;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    
+        #prev{
+            cursor: pointer;
+            font-size: 20px;
+            padding: 16px;
+            color: #bbbbbb;
+     
+            font-weight: bold;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        #next{
+            cursor: pointer;
+            font-size: 20px;
+            padding: 16px;
+            color: #bbbbbb;
+     
+            font-weight: bold;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+    
+        @include baber
+
+}
+
+}

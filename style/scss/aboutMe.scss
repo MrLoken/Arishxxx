@@ -1,0 +1,50 @@
+@import url('../css/import/import.css');    
+
+
+@font-face {
+    font-family: "CenturyGothic";
+    src: url("../fonts/centurygothic.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+.aboutMe{
+    background: #F8F8F8
+}
+
+
+.about-me{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 170px;
+    justify-content: center;
+
+    .title{
+        font-weight: 400;
+        font-size: 39px;
+        text-align: center;
+        color: #000000;
+        font-family: "CenturyGothic", serif;
+    }
+
+        .about-list{
+            margin-top: 23px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+
+            .about-item{
+                max-width: 450px;
+                text-align: center;
+                font-size: 18px;
+                margin-top: 20px;
+                margin: 0 auto;
+                font-family: "CenturyGothic", serif;
+
+            }
+
+        } 
+
+
+}

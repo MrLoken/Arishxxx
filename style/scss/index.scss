@@ -1,0 +1,99 @@
+@import url('../css/import/import.css');
+
+
+@font-face {
+    font-family: "CenturyGothic";
+    src: url("../fonts/centurygothic.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.background{
+    background: #F8F8F8
+}
+
+
+    .main-text{
+        padding-top: 140px;
+
+        .title{
+            font-size: 38px;
+            color: rgb(0, 0, 0);
+            font-family: 'CenturyGothic', sans-serif;
+        }
+
+        .sub-title{
+            margin-top: 29px;
+            font-size: 24px;
+            max-width: 800px;
+            font-family: 'CenturyGothic', sans-serif;
+        }
+
+        .button-text{
+            color:rgb(0, 0, 0);
+            font-size: 18px;
+            font-family: 'CenturyGothic', sans-serif;
+            padding: 10px 30px;
+            text-align: center;
+            border: 3px solid #FFFFFF;
+        }
+
+
+        .button{
+            margin-top: 30px;
+            padding-bottom: 80px;    
+        }
+
+        .but{
+            filter: drop-shadow(0px 4.5px 0px #E1E1E1);
+        }
+
+        .button:hover{
+            margin-top:31px ;
+        }
+
+    }
+
+
+
+
+.p-text{
+
+    margin-top: 80px;
+    font-family: 'CenturyGothic', sans-serif;
+    padding-bottom: 70px;
+    
+    .title{
+        font-weight: 600;
+        font-size: 26px;
+    }
+
+    .subtitle{
+        font-size: 20px;
+        margin-top: 35px;
+        font-weight: 500;
+    }
+
+    .p-list{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .things{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .wait{
+        font-weight: 600;
+        margin-top: 30px;
+        font-size: 23px;
+    }
+
+    .ps{
+        margin-top: 20px;
+        font-size: 19px;
+    }
+}
+
+

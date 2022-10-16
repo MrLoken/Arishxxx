@@ -1,0 +1,82 @@
+@import url("../css/import/import.css");
+@font-face {
+  font-family: "CenturyGothic";
+  src: url("../fonts/centurygothic.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+.feedback {
+  background-color: #f8f8f8;
+}
+
+label.error {
+  display: none !important;
+}
+
+body {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.contact__wrapper {
+  padding-bottom: 125px;
+}
+.contact__wrapper form {
+  border: 1px solid #c3c3c3;
+  padding: 15px;
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.contact__wrapper form input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #c3c3c3;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "CenturyGothic", serif;
+}
+.contact__wrapper form input.error {
+  border-color: red;
+}
+.contact__wrapper form textarea {
+  resize: none;
+  width: 100%;
+  border: 1px solid #c3c3c3;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 18px;
+}
+.contact__wrapper form button {
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+  font-family: "CenturyGothic", serif;
+  border: 1px solid #c3c3c3;
+}
+
+.contact .title {
+  font-family: "CenturyGothic", serif;
+  font-size: 35px;
+  padding-top: 70px;
+  text-align: center;
+}

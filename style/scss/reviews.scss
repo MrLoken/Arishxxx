@@ -1,0 +1,48 @@
+@import url('../css/import/import.css');
+
+
+@font-face {
+    font-family: "CenturyGothic";
+    src: url("../fonts/centurygothic.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.reviews{
+
+    background-color: #f5f5f5;
+    padding-bottom: 80px;
+
+    .reviews-inner{
+        padding-top: 20px;
+        font-family: 'CenturyGothic';
+        text-align: center;
+
+        .title{
+            margin-top: 82px;
+            font-size: 38px;
+            color: #000000;
+            font-weight: 600;
+        }  
+        
+        .name{
+            margin-top: 45px;
+            font-weight: 500;
+            font-size: 26px;
+            color: #000000;
+        }
+
+        .reviews-p{
+            max-width: 800px;   
+            margin: 0 auto;
+
+            .reviews-text{
+                padding-top: 17px;
+                font-size: 20px;
+                color: #000000;
+
+                }
+        }
+    }
+}
